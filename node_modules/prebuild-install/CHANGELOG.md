@@ -1,5 +1,11 @@
 # Changelog
 
+## [6.1.0] - 2021-04-03
+
+### Added
+
+- Restore local prebuilds feature ([#137](https://github.com/prebuild/prebuild-install/issues/137)) ([`dc4e5ea`](https://github.com/prebuild/prebuild-install/commit/dc4e5ea)) (Wes Roberts). Previously removed in [#81](https://github.com/prebuild/prebuild-install/issues/81) / [`a069253`](https://github.com/prebuild/prebuild-install/commit/a06925378d38ca821bfa93aa4c1fdedc253b2420).
+
 ## [6.0.1] - 2021-02-14
 
 ### Fixed
@@ -29,6 +35,8 @@
 ### Changed
 
 - Replace `mkdirp` dependency with `mkdirp-classic` ([**@ralphtheninja**](https://github.com/ralphtheninja))
+
+[6.1.0]: https://github.com/prebuild/prebuild-install/compare/v6.0.1...v6.1.0
 
 [6.0.1]: https://github.com/prebuild/prebuild-install/compare/v6.0.0...v6.0.1
 

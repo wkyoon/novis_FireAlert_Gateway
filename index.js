@@ -1,3 +1,4 @@
+
 const io = require("socket.io-client");
 
 var SerialPort = require('serialport')
@@ -105,9 +106,9 @@ serialport.on('data', function (data) {
 
 //serialport.write(msg+'\n')
 
-const socket = io("http://15.164.102.170:3000/");
-
-console.log(socket.id); // undefined
+//const socket = io("http://15.164.102.170:3000/");
+var socket = require('socket.io-client')('http://novisfirealert.ga:3001');
+//console.log(socket.id); // undefined
 
 socket.on("connect", () => {
   console.log(socket.id); // "G5p5..."
